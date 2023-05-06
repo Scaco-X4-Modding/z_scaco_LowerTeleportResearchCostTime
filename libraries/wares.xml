@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<diff>
+
+	<!-- Teleport -->
+	<replace sel="//ware[@id='research_teleportation']/research/@time">0</replace>
+
+	<remove sel="//ware[@id='research_teleportation']/research/primary/ware[@ware='advancedelectronics']" />
+	<remove sel="//ware[@id='research_teleportation']/research/primary/ware[@ware='energycells']" />
+
+	<!-- Teleport +1 -->
+	<replace sel="//ware[@id='research_teleportation_range_01']/research/@time">10</replace>
+
+	<remove sel="//ware[@id='research_teleportation_range_01']/research/primary/ware[@ware='advancedelectronics']" />
+	<remove sel="//ware[@id='research_teleportation_range_01']/research/primary/ware[@ware='antimatterconverters']" />
+	<remove sel="//ware[@id='research_teleportation_range_01']/research/primary/ware[@ware='energycells']" />
+
+	<!-- Teleport +2 -->
+	<replace sel="//ware[@id='research_teleportation_range_02']/research/@time">20</replace>
+
+	<remove sel="//ware[@id='research_teleportation_range_02']/research/primary/ware[@ware='advancedelectronics']" />
+	<remove sel="//ware[@id='research_teleportation_range_02']/research/primary/ware[@ware='energycells']" />
+	<remove sel="//ware[@id='research_teleportation_range_02']/research/primary/ware[@ware='nividium']" />
+	<remove sel="//ware[@id='research_teleportation_range_02']/research/primary/ware[@ware='plasmaconductors']" />
+
+	<!-- Teleport +3 -->
+	<replace sel="//ware[@id='research_teleportation_range_03']/research/@time">30</replace>
+
+	<remove sel="//ware[@id='research_teleportation_range_03']/research/primary/ware[@ware='advancedelectronics']" />
+	<remove sel="//ware[@id='research_teleportation_range_03']/research/primary/ware[@ware='energycells']" />
+	<remove sel="//ware[@id='research_teleportation_range_03']/research/primary/ware[@ware='fieldcoils']" />
+	<remove sel="//ware[@id='research_teleportation_range_03']/research/primary/ware[@ware='nividium']" />
+	<remove sel="//ware[@id='research_teleportation_range_03']/research/primary/ware[@ware='superfluidcoolant']" />
+
+	<!-- Teleport +4 (Warp 1) -->
+	<replace sel="//ware[@id='research_warp_hq_01']/research/@time">45</replace>
+
+	<remove sel="//ware[@id='research_warp_hq_01']/research/primary/ware[@ware='advancedelectronics']" />
+	<remove sel="//ware[@id='research_warp_hq_01']/research/primary/ware[@ware='energycells']" />
+	<remove sel="//ware[@id='research_warp_hq_01']/research/primary/ware[@ware='fieldcoils']" />
+	<remove sel="//ware[@id='research_warp_hq_01']/research/primary/ware[@ware='nividium']" />
+	<remove sel="//ware[@id='research_warp_hq_01']/research/primary/ware[@ware='superfluidcoolant']" />
+
+	<!-- Teleport +5 (Warp 2)-->
+	<replace sel="//ware[@id='research_warp_hq_02']/research/@time">60</replace>
+
+	<remove sel="//ware[@id='research_warp_hq_02']/research/primary/ware[@ware='advancedelectronics']" />
+	<remove sel="//ware[@id='research_warp_hq_02']/research/primary/ware[@ware='energycells']" />
+	<remove sel="//ware[@id='research_warp_hq_02']/research/primary/ware[@ware='fieldcoils']" />
+	<remove sel="//ware[@id='research_warp_hq_02']/research/primary/ware[@ware='nividium']" />
+	<remove sel="//ware[@id='research_warp_hq_02']/research/primary/ware[@ware='superfluidcoolant']" />
+
+</diff>

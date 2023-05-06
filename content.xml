@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content
+	id="z_scaco_LowerTeleportResearchCostTime"
+	name="z_scaco_LowerTeleportResearchCostTime"
+	description="Die Forschugn für die Teleporationen (auch PHQ Warp) kostet keine Ressourcen und geht deutlich schneller. Die erste Warp-Forschung trickert die Quest für den PHQ Warp, dies dauert deutlich länger als die Erforschung."
+	author="Scaco"
+	version="101"
+	date="2023-05-01"
+	save="0"
+	enabled="1">
+</content>
